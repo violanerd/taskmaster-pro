@@ -188,7 +188,7 @@ $("#task-form-modal .btn-save").click(function() {
     saveTasks();
   }
 });
-
+ 
 // remove all tasks
 $("#remove-tasks").on("click", function() {
   for (var key in tasks) {
